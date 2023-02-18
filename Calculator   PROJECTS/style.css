@@ -1,0 +1,126 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body*/
+body {
+  text-align: center;
+  padding-top: 40px;
+  background-image: url("https://images.unsplash.com/photo-1521193089946-7aa29d1fe776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdhbGwlMjBiYWNrZ3JvdW5kJTIwd2hpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Border-block */
+.border-block {
+  display: flex;
+  justify-content: center;
+}
+
+/* inner-block */
+.Outer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 250px;
+  background-color: #000000;
+  border-radius: 18px;
+  box-shadow: 6px 6px 7px #a09494;
+}
+/* 1 st heading */
+h2 {
+  margin-bottom: 50px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 40;
+  font-size: 28px;
+  text-shadow: 1px 1px 3px #ff0000;
+}
+h2:hover{
+  font-size: 30px;
+}
+
+
+/* styling button */
+.button {
+  width: 50px;
+  height: 40px;
+  margin: 3px 3px 3px 3px;
+  font-size: 25px;
+  border-radius: 9px;
+  border: 0px;
+}
+/* clear button */
+.clear {
+  width: 108px;
+  background-color: #0000ff;
+  color: #f0f8ff;
+  box-shadow: 1px 1px 4px #ffffff;
+}
+.clear:hover {
+  background-color: #ff0000;
+  transition: 0.5s;
+}
+.orange {
+  background-color: #ffa500;
+  box-shadow: 1px 1px 4px #ffffff;
+}
+.orange:hover {
+  background-color: #00ffff;
+  transition: 0.5s;
+}
+/* Styling num */
+.num {
+  background-color: #000000;
+  color: #f0f8ff;
+  box-shadow: 1px 1px 4px #ffffff;
+}
+.num:hover {
+  background-color: #cabfbf;
+  color: #000000;
+  transition: 0.5s;
+}
+/* Styling the input bar  */
+.input-row input {
+  width: 14rem;
+  height: 2rem;
+  font-size: 25px;
+  margin: 5px 0px 8px 0px;
+  border-radius: 9px;
+  background-color: #817d7d;
+  color: #f7f5f5;
+  box-shadow: 2px 2px 4px #cabfbf;
+  border: 1px;
+}
+
+/* Styling link section */
+.social-media{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 3px;
+}
+.social-media h2{
+
+  margin-bottom: 10px;
+}
+.all-media{
+   display: flex;
+   justify-content: center;
+    font-size: 30px;
+
+    gap: 20px;
+}
+.github{
+    color: #000000;
+
+  }
+.linkdin{
+  color: #0000ff;
+}
+.twitter{
+  color: #3b3beee7;
+}
