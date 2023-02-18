@@ -1,0 +1,3 @@
+# Calculator
+Language used HTML ,CSS and Javascript. 
+This is basic calculator which performs addtion , subtraction , multiplication , division and modulus operation ...
